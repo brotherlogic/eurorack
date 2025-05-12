@@ -3,12 +3,12 @@
 Beginner cases:
 
 1. [Nifty Case](https://www.cre8audio.com/niftycase) 
-1. [Intellijel Palette] (https://intellijel.com/shop/cases/4u/4u-palette-eurorack-case/?attribute_colour=Silver&attribute_width=62hp)
-1. [Pod 64x] (https://4mscompany.com/p.php?p=979&c=9)
-1. [Caixa 104] (https://nano-modules.com/caixa-104/)
-1. [RackBrute 3U] (https://www.arturia.com/products/hardware-synths/rackbrute-3u/overview)
+1. [Intellijel Palette](https://intellijel.com/shop/cases/4u/4u-palette-eurorack-case/?attribute_colour=Silver&attribute_width=62hp)
+1. [Pod 64x](https://4mscompany.com/p.php?p=979&c=9)
+1. [Caixa 104](https://nano-modules.com/caixa-104/)
+1. [RackBrute 3U](https://www.arturia.com/products/hardware-synths/rackbrute-3u/overview)
 
-Are the main three I think to consider. I think the [TipTop Mantis] (https://tiptopaudio.com/mantis/) is too big, I need to
+Are the main three I think to consider. I think the [TipTop Mantis](https://tiptopaudio.com/mantis/) is too big, I need to
 have something that'll fit on my desk with the keyboard also. The RackBrute seems nice and sits higher than the desk, but I
 think may take up too much space on the desk.
 
