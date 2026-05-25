@@ -8,12 +8,12 @@ Cellz is not just a sequencer; it's a "programmable touch surface." It has two s
 ## The Patch
 
 ### 1. The Bass (Cellz Sequencer 1 -> Chipz OSC 1)
-*   **Patch:** **Cellz CV 1** $\rightarrow$ **Chipz OSC 1 V/Oct**.
+*   **Patch:** **Cellz CV 1** $\rightarrow$ **Chip 1 "Filter" jack**.
 *   **Patch:** **Chipz OSC 1 Out** $\rightarrow$ **3x MIA Section 1, Jack A**.
 *   **Action:** Tune Chipz OSC 1 to a low, growly frequency. Touch the pads on the **Left side** of Cellz. You are now manually "playing" the bassline.
 
 ### 2. The Melody (Cellz Sequencer 2 -> Chipz OSC 2)
-*   **Patch:** **Cellz CV 2** $\rightarrow$ **Chipz OSC 2 V/Oct**.
+*   **Patch:** **Cellz CV 2** $\rightarrow$ **Chip 2 "Width" jack**.
 *   **Patch:** **Chipz OSC 2 Out** $\rightarrow$ **3x MIA Section 2, Jack A**.
 *   **Action:** Tune Chipz OSC 2 to a higher pitch. Touch the pads on the **Right side** of Cellz. You now have a two-voice synthesizer!
 
