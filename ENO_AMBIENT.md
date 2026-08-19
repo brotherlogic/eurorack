@@ -45,8 +45,8 @@ To give it that organic, breathing Eno feel, we need a slow LFO to gently modula
 
 ### 3. Tweak the Cloud
 * **Tweak (Mojave):** 
-  * Turn **Structure** to create a dense wash of grains.
-  * Turn **Depth** to add a huge, cavernous reverb.
-  * Keep **Length** medium-long to create a sustained drone behind the bells.
+  * Turn **Drift** up to capture more of the audio buffer for a tape loop effect.
+  * Turn **Gust** up to add a huge, cavernous reverb.
+  * Turn **Size** up to create a sustained drone behind the bells.
 
 Now sit back. The Resonate will chime slowly, while Mojave catches those chimes, smears them into a wide stereo cloud, and slowly breathes in and out thanks to Pam's modulation.
