@@ -50,3 +50,23 @@ To give it that organic, breathing Eno feel, we need a slow LFO to gently modula
   * Turn **Size** up to create a sustained drone behind the bells.
 
 Now sit back. The Resonate will chime slowly, while Mojave catches those chimes, smears them into a wide stereo cloud, and slowly breathes in and out thanks to Pam's modulation.
+
+---
+
+## Day 3: The Sub-Bass Drone (Depth)
+
+**Goal:** Ground the ethereal bells and granular cloud with a deep, slow-moving drone using Chipz.
+
+### 1. Patch the Drone Source
+* **Patch:** Connect **Chipz OSC 1 Out** $\rightarrow$ **3x MIA Section 3 Jack A** (assuming it's free).
+* **Tweak (Chipz):** Turn the **Tuning** knob for OSC 1 very low to get a sub-bass frequency. Select the Sine or Triangle wave output for a smoother, less aggressive bass.
+
+### 2. Slow Evolution
+A completely static drone can feel lifeless. Let's give its timbre some slow movement.
+* **Patch:** Connect **Pam's Output 3** $\rightarrow$ **Chipz OSC 1 Width CV In**.
+* **Setup (Pam's):** Set Output 3 to an incredibly slow Sine or Triangle wave (e.g., `/64` modifier) with some attenuation. This will slowly morph the waveform of the sub-bass drone over a long period.
+
+### 3. Mix it In
+* **Tweak (3x MIA):** Slowly bring up the attenuverter knob for Section 3. You want this drone to sit gently underneath the entire mix—often you should feel the bass more than you actively hear it.
+
+You now have a complete three-layer ambient ecosystem: a generative bell melody (Resonate), a swirling tape-delay cloud (Mojave), and a deep, evolving foundation (Chipz).
