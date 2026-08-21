@@ -70,3 +70,24 @@ A completely static drone can feel lifeless. Let's give its timbre some slow mov
 * **Tweak (3x MIA):** Slowly bring up the attenuverter knob for Section 3. You want this drone to sit gently underneath the entire mix—often you should feel the bass more than you actively hear it.
 
 You now have a complete three-layer ambient ecosystem: a generative bell melody (Resonate), a swirling tape-delay cloud (Mojave), and a deep, evolving foundation (Chipz).
+
+---
+
+## Day 4: The Sustained Counter-Melody
+
+**Goal:** Introduce a slow, shifting, high-register melody using Cellz and the unused half of Chipz to float above the generative bells.
+
+### 1. Clock the Sequencer
+* **Patch:** Connect **Pam's Output 4** $\rightarrow$ **Cellz Clock In**.
+* **Setup (Pam's):** Set Output 4 to an extremely slow clock division (like `/16` or `/32`). This ensures the counter-melody notes hang in the air for a long time before changing, like a slow-moving pad.
+
+### 2. Patch the Counter-Melody
+* **Patch:** Connect **Cellz CV 1 Out** $\rightarrow$ **Chipz OSC 2 Pitch In**.
+* **Patch:** Connect **Chipz OSC 2 Out** (choose the Triangle or Sine wave) $\rightarrow$ **3x MIA Section 3 Jack B**. This mixes the counter-melody into the same channel as your sub-bass drone!
+* **Tweak (Chipz):** Tune OSC 2 high up into a singing, flute-like register. Since it's not patched through an envelope/VCA, it will drone continuously—which is perfect for this style.
+
+### 3. Program the Melody
+* **Tweak (Cellz):** Use the touch pads on Cellz to manually tune the steps. Try tuning them by ear to match the key of your Resonate bells. Sticking to simple intervals (fifths, octaves, or pentatonic notes) works best for ambient music.
+* **Mix (3x MIA):** Slowly adjust the level on Section 3 until this high, sustained note sits perfectly in the background like a distant string section.
+
+This creates a beautiful, sustained counter-melody that automatically and slowly changes, contrasting with the plucky, random nature of the bells!
