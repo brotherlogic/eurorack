@@ -2,17 +2,15 @@
 
 The **ALA Dice** is a clone of Mutable Instruments Marbles. It is best understood not as a traditional sequencer, but as a "randomness tamer." It generates random rhythms and melodies, but gives you precise tools to constrain, quantize, and loop that randomness into musical patterns.
 
-To learn Dice, we'll strip everything else back and use it to sequence a simple voice.
+To learn Dice, we'll strip everything else back and sequence a simple drone.
 
 ## The Setup (The Canvas)
-First, let's patch a basic synth voice so we can hear what Dice is doing.
+Let's patch the simplest possible voice so we can hear and see exactly what Dice is doing.
 1. **Clock:** Patch **Pam's Out 1** $\rightarrow$ **Dice Clock In (t)** (the 't' section is on the left).
 2. **Pitch:** Patch **Dice X1** (bottom middle row) $\rightarrow$ **Chipz OSC 1 Pitch CV**.
-3. **Sound:** Patch **Chipz OSC 1 Out** $\rightarrow$ **Resonate IN** (We'll use Resonate as a low-pass filter/VCA combo here).
-4. **Gate:** Patch **Dice t1** (top left row) $\rightarrow$ **Resonate Strum**.
-5. **Output:** Patch **Resonate Out** $\rightarrow$ **3x MIA** $\rightarrow$ **Output**.
+3. **Output:** Patch **Chipz OSC 1 Out** (use Triangle or Sine for a smooth tone) $\rightarrow$ **3x MIA** $\rightarrow$ **Output**.
 
-*Note: Set Resonate to standard physical modeling (green mode), frequency down a bit, and damping relatively low so it acts like a plucky synth.*
+*Note: Since we are not using an envelope or VCA, Chipz will drone continuously. This is perfect for hearing the pure pitch changes without being distracted by volume dynamics!*
 
 ---
 
@@ -34,10 +32,10 @@ The right side of Dice (and the bottom jacks) handles pitch/voltage generation.
 
 ## Exercise 2: Taming the Rhythm (The 't' Section)
 
-The left side of Dice handles rhythm and triggers. Pam's is sending a steady pulse into the `t` clock, but Dice decides what to do with it.
+The left side of Dice handles rhythm and triggers. Pam's is sending a steady pulse into the `t` clock, but Dice decides what to do with it. Since our drone is continuous, we'll watch the built-in LEDs above the `t1` and `t3` jacks to see the rhythms it generates.
 
-1. **Jitter:** Turn the **Jitter** knob (left side, top) up. You'll hear the timing of the triggers start to drift off the grid, feeling more human, sloppy, or drunken. Turn it back down for strict time.
-2. **Coin Flip (Bias):** The **Bias** knob (left side, middle) determines how often triggers fire out of `t1` versus `t3`. Turn it left, and `t1` fires constantly. Turn it right, and `t1` stays silent while `t3` gets all the triggers. Leave it around 11 o'clock.
+1. **Jitter:** Turn the **Jitter** knob (left side, top) up. Watch the LEDs. You'll see the timing of the triggers start to drift off the grid, feeling more human, sloppy, or drunken. Turn it back down for strict time.
+2. **Coin Flip (Bias):** The **Bias** knob (left side, middle) determines how often triggers fire out of `t1` versus `t3`. Turn it left, and `t1` fires constantly. Turn it right, and `t1` stays silent while `t3` gets all the triggers. Watch the LEDs dance between the two jacks! Leave it around 11 o'clock.
 
 ---
 
